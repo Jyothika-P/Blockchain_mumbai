@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/dishad/Desktop/BLOCKCHAIN/USDC_project/contracts/transactioncheck.sol": {
+      "lastModificationDate": 1686309873820,
+      "contentHash": "31783d54cfed50b7bac4fe708d1ce682",
+      "sourceName": "contracts/transactioncheck.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "transactioncheck"
+      ]
+    }
+  }
+}
