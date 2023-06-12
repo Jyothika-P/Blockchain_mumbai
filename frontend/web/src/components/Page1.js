@@ -71,9 +71,7 @@ function Page1({ acc, setacc, contract, setcontract }) {
                       decimals: 18,
                     },
                     rpcUrls: [
-                      " https://polygon-mainnet.infura.io ",
-                      "https://rpc.ankr.com/polygon",
-                      "https://polygon-bor.publicnode.com",
+                      "https://rpc-mumbai.maticvigil.com/",
                     ] /* ... */,
                   },
                 ],
