@@ -9,7 +9,7 @@ export default function Page7({ amount, receiverphoneno }) {
         <img src={tick} alt="tick_img" className="tick"></img>
         <div className="final-message">Transcation completed!</div>
         <div className="final-message-sub">
-          You have successfully sent {amount} USDC to{" "}
+          You have successfully sent {amount} MATIC to{" "}
           <span style={{ color: "#5D8EFB" }}> {receiverphoneno} </span>
         </div>
 

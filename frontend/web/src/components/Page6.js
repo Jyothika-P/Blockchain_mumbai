@@ -61,12 +61,12 @@ export default function Page6({
   );
   async function sendTransaction() {
     //coversion of input from USDC to Wei
-    var x = 11.5 / 8;
-    var amnt = Number(amount);
-    console.log(amnt);
-    var v = amnt * x;
-    let usdcBalance = ethers.parseUnits(v.toString(), 18);
-    let a = Number(usdcBalance);
+    //var x = 11.5 / 8;
+    //var amnt = Number(amount);
+    //console.log(amnt);
+    //var v = amnt * x;
+    //let usdcBalance = ethers.parseUnits(v.toString(), 18);
+    let a = Number(amount);
     const amount_for_transaction = "0x" + a.toString(16);
 
     //Calling Metamask for transaction
