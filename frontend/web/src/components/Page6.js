@@ -28,7 +28,7 @@ export default function Page6({
               Select currency
             </span>
             <select>
-              <option>USDC</option>
+              <option>MATIC</option>
             </select>
           </div>
           <div className="blockchain">
